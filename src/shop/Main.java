@@ -15,7 +15,6 @@ public class Main {
                 300000,
                 2);
         System.out.println(shop.toString());
-        System.out.println("hello");
         ServiceShop serviceShop=new ServiceShopImpl(shop);
 
         serviceShop.addNewItem(new Item(500,"ikra krasnaya",20));
